@@ -85,7 +85,7 @@ btnHold.addEventListener('click', function () {
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.remove('player--active');
-      diceEl.clasList.add('hidden');
+      diceEl.classList.add('hidden');
     } else {
       switchPlayer();
     }
